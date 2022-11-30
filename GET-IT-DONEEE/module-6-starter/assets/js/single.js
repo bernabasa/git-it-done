@@ -79,7 +79,7 @@ var displayWarning = function(repo) {
     limitWarningE1.textContent = "To see more than 30 issues, visit ";
 
     var linkE1 = document.createElement("a");
-    linkE1.textContent = "See More Issues on GitHub.com";
+    linkE1.textContent = "GitHub.com";
     linkE1.setAttribute("href", "https://github.com/" + repo + "/issues");
     linkE1.setAttribute("target", "_blank");
 
